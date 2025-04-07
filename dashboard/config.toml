@@ -1,0 +1,11 @@
+# AWS Configuration
+[aws]
+access_key = os.environ.get('AWS_DATAPIPE_ACCESS_KEY')
+secret_key = os.environ.get('AWS_DATAPIPE_SECRET_KEY')
+region = "ap-south-1"  # Replace with your region
+bucket_name = "news-articles-pipeline"
+
+# Databricks Configuration
+[databricks]
+host = "https://community.cloud.databricks.com/editor/notebooks/1407816299779252"  # Replace with your Databricks instance
+token = "YOUR_DATABRICKS_PERSONAL_ACCESS_TOKEN"
